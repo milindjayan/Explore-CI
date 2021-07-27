@@ -9,5 +9,5 @@ class TestCalculator:
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
 
-    def multiply(self):
-        assert 100 == calculator.subtract(10, 10)
+    def test_multiply(self):
+        assert 100 == calculator.multiply(10, 10)
